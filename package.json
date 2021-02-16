@@ -1,10 +1,27 @@
 {
-  "name": "stayday",
+  "name": "stay-day",
+  "version": "1.0.0",
+  "description": "discord-bot",
   "main": "index.js",
-  "author": "Piochy",
-  "version": "5.0.0",
-  "repository": "https://github.com/Piochy/stayday",
-  "description": "A complete code to download for a music bot. Using a module (discord-player).",
+  "dependencies": {
+    "discord.js-commando": "^0.12.2",
+    "discord.js": "^12.5.1",
+    "fs": "^0.0.1-security",
+    "generate-password": "^1.6.0",
+    "lowdb": "^1.0.0",
+    "mathjs": "^9.2.0",
+    "ms": "^2.1.3",
+    "moment": "^2.29.1",
+    "node-superfetch": "^0.1.11"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node index.js"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "author": "Piochy",
+  "license": "GPL-3.0"
+}
